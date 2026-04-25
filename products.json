@@ -1,64 +1,41 @@
 [
   {
     "id": 1,
-    "category_id": 6,
-    "brand": "gutta",
-    "name": "'VARSITY' ZIP-HOODIE BLACK",
-    "description": "Черная zip-худи в стиле varsity. Пример товара для нового каталога.",
-    "price_byn": 260,
+    "category_id": 1,
+    "brand": "nike",
+    "name": "Nike",
+    "description": "1",
+    "price_byn": 333.0,
     "prices": {
-      "BYN": 260
+      "BYN": 333.0
     },
     "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
+      "43",
+      "44",
+      "45"
     ],
     "stock": 5,
     "images": [
-      "https://liknine.github.io/notuneeeed_bot/images/example_hoodie_black.png"
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_2.jpg"
     ]
   },
   {
     "id": 2,
-    "category_id": 6,
-    "brand": "gutta",
-    "name": "'SCRIPT' SWEATSHIRT PURPLE",
-    "description": "Фиолетовый sweatshirt с script-логотипом. Пример товара.",
-    "price_byn": 210,
+    "category_id": 1,
+    "brand": "nike",
+    "name": "nike",
+    "description": "kk",
+    "price_byn": 66.0,
     "prices": {
-      "BYN": 210
+      "BYN": 66.0
     },
     "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
+      "44",
+      "45"
     ],
-    "stock": 4,
+    "stock": 6,
     "images": [
-      "https://liknine.github.io/notuneeeed_bot/images/example_sweatshirt_purple.png"
-    ]
-  },
-  {
-    "id": 3,
-    "category_id": 9,
-    "brand": "gutta",
-    "name": "SCRIPT CAP PINK",
-    "description": "Кепка в коричнево-розовой гамме для проверки каталога.",
-    "price_byn": 95,
-    "prices": {
-      "BYN": 95
-    },
-    "sizes": [
-      "ONE SIZE"
-    ],
-    "stock": 7,
-    "images": [
-      "./hero.jpg"
+      "https://liknine.github.io/notuned_catalog/images/product_0ebb5e5d82d9.jpg"
     ]
   }
 ]
