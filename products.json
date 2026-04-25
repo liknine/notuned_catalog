@@ -1,41 +1,20 @@
 [
   {
     "id": 1,
-    "category_id": 1,
-    "brand": "nike",
-    "name": "Nike",
-    "description": "1",
-    "price_byn": 333.0,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "Gutta 'HOT COFFEE' cap",
+    "description": "10/10\nwith set",
+    "price_byn": 300.0,
     "prices": {
-      "BYN": 333.0
+      "BYN": 300.0
     },
     "sizes": [
-      "43",
-      "44",
-      "45"
+      "NO"
     ],
-    "stock": 5,
+    "stock": 10,
     "images": [
-      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_2.jpg"
-    ]
-  },
-  {
-    "id": 2,
-    "category_id": 1,
-    "brand": "nike",
-    "name": "nike",
-    "description": "kk",
-    "price_byn": 66.0,
-    "prices": {
-      "BYN": 66.0
-    },
-    "sizes": [
-      "44",
-      "45"
-    ],
-    "stock": 6,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_0ebb5e5d82d9.jpg"
+      "https://liknine.github.io/notuned_catalog/images/product_ff8f0ca598ea.jpg"
     ]
   }
 ]
