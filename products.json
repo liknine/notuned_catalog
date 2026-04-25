@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "category_id": 6,
+    "brand": "gutta",
+    "name": "'VARSITY' ZIP-HOODIE BLACK",
+    "description": "Черная zip-худи в стиле varsity. Пример товара для нового каталога.",
+    "price_byn": 260,
+    "prices": {
+      "BYN": 260
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": 5,
+    "images": [
+      "https://liknine.github.io/notuneeeed_bot/images/example_hoodie_black.png"
+    ]
+  },
+  {
+    "id": 2,
+    "category_id": 6,
+    "brand": "gutta",
+    "name": "'SCRIPT' SWEATSHIRT PURPLE",
+    "description": "Фиолетовый sweatshirt с script-логотипом. Пример товара.",
+    "price_byn": 210,
+    "prices": {
+      "BYN": 210
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": 4,
+    "images": [
+      "https://liknine.github.io/notuneeeed_bot/images/example_sweatshirt_purple.png"
+    ]
+  },
+  {
+    "id": 3,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "SCRIPT CAP PINK",
+    "description": "Кепка в коричнево-розовой гамме для проверки каталога.",
+    "price_byn": 95,
+    "prices": {
+      "BYN": 95
+    },
+    "sizes": [
+      "ONE SIZE"
+    ],
+    "stock": 7,
+    "images": [
+      "./hero.jpg"
+    ]
+  }
+]
