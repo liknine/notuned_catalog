@@ -16,5 +16,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_ff8f0ca598ea.jpg"
     ]
+  },
+  {
+    "id": 2,
+    "category_id": 8,
+    "brand": "gutta",
+    "name": "Gutta 'OG' Shorts",
+    "description": "new\nwith set\nrare",
+    "price_byn": 350.0,
+    "prices": {
+      "BYN": 350.0
+    },
+    "sizes": [
+      "L"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_206eb3a6c333.jpg"
+    ]
   }
 ]
