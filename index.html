@@ -55,6 +55,80 @@ button,input,select{font-family:inherit}
 .burger span{width:30px;height:3px;background:var(--text);border-radius:99px;display:block}
 .logo{text-align:center;font-family:'Space Grotesk',Outfit,-apple-system,BlinkMacSystemFont,sans-serif;font-size:33px;line-height:1;font-weight:700;letter-spacing:-1.1px;color:var(--text)}
 .topbar-spacer{width:44px}
+
+.landing{
+  min-height:calc(100dvh - 96px - var(--tab-height));
+  padding:28px 18px calc(28px + var(--tab-height));
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:26px;
+  background:var(--bg);
+  animation:pageIn .28s var(--ease);
+}
+.landing-photo{
+  width:100%;
+  flex:1;
+  min-height:360px;
+  background:var(--soft);
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.landing-photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.enter-catalog-btn{
+  width:100%;
+  height:58px;
+  border:0;
+  background:var(--text);
+  color:#fff;
+  font-size:14px;
+  font-weight:800;
+  letter-spacing:1.4px;
+  text-transform:uppercase;
+  cursor:pointer;
+  position:relative;
+  overflow:hidden;
+  transition:transform .22s var(--ease),box-shadow .22s var(--ease),background .22s var(--ease);
+  box-shadow:0 12px 30px rgba(0,0,0,.14);
+}
+.enter-catalog-btn:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:-80%;
+  width:60%;
+  height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.28),transparent);
+  transform:skewX(-18deg);
+  transition:left .55s var(--ease);
+}
+.enter-catalog-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 16px 36px rgba(0,0,0,.18);
+}
+.enter-catalog-btn:hover:before{left:120%}
+.enter-catalog-btn:active{
+  transform:scale(.985);
+  box-shadow:0 8px 20px rgba(0,0,0,.13);
+}
+.catalog-content{display:none}
+.catalog-content.open{
+  display:block;
+  animation:catalogReveal .34s var(--ease);
+}
+@keyframes catalogReveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:390px){
+  .landing{min-height:calc(100dvh - 92px - var(--tab-height));padding-left:14px;padding-right:14px}
+  .landing-photo{min-height:330px}
+}
+
 .hero{padding:24px 18px 0;background:var(--bg)}
 .hero-card{
   position:relative;overflow:hidden;background:var(--soft);
@@ -99,8 +173,8 @@ button,input,select{font-family:inherit}
 .product-card-fav.active{background:var(--text);color:#fff}
 .product-card-body{padding-top:13px;text-align:center}
 .product-card-name{
-  font-size:16px;line-height:1.12;font-weight:900;
-  letter-spacing:-.28px;text-transform:uppercase;
+  font-size:16px;line-height:1.12;font-weight:800;
+  letter-spacing:-.2px;text-transform:uppercase;
   min-height:38px;overflow:hidden;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
 }
@@ -206,13 +280,22 @@ button,input,select{font-family:inherit}
       <div class="logo">notuneeeed</div>
       <div class="topbar-spacer"></div>
     </header>
-    <section class="hero">
-      <div class="hero-card">
+    <section class="landing" id="landing">
+      <div class="landing-photo">
         <img src="./hero.jpg" alt="notuneeeed" onerror="this.src='images/hero.jpg';this.onerror=null">
-        <div class="hero-caption"><span>catalog</span><span>new drop</span></div>
       </div>
+      <button class="enter-catalog-btn" onclick="enterCatalog()">Перейти в каталог</button>
     </section>
-    <section class="catalog-grid" id="catalog-grid"><div class="loading"><div class="spinner"></div><div>Загружаем каталог</div></div></section>
+
+    <section class="catalog-content" id="catalog-content">
+      <section class="hero">
+        <div class="hero-card">
+          <img src="./hero.jpg" alt="notuneeeed" onerror="this.src='images/hero.jpg';this.onerror=null">
+          <div class="hero-caption"><span>catalog</span><span>new drop</span></div>
+        </div>
+      </section>
+      <section class="catalog-grid" id="catalog-grid"><div class="loading"><div class="spinner"></div><div>Загружаем каталог</div></div></section>
+    </section>
   </div>
 
   <div class="page" id="page-favorites"><div class="page-header">Избранное</div><div class="favorites-grid" id="favorites-grid"></div></div>
@@ -318,6 +401,7 @@ function renderCheckoutFields(){const box=document.getElementById('checkout-fiel
 function openCheckout(){if(!cart.length)return;buildDeliveryList();setDelivery('pickup');document.getElementById('checkout-modal').classList.add('open')}function closeCheckout(){document.getElementById('checkout-modal').classList.remove('open')}function closeCheckoutOverlay(e){if(e.target.id==='checkout-modal')closeCheckout()}
 function submitOrder(){const form=DELIVERY_FORMS[currentDelivery],data={};let valid=true;form.fields.forEach(field=>(field.row||[field]).forEach(f=>{const el=document.getElementById('form-'+f.id);data[f.id]=el?.value.trim()||'';if(f.required&&!data[f.id])valid=false}));if(!valid){showToast('Заполните все поля');return}const total=cart.reduce((s,i)=>s+Number(i.price_byn||0),0);let text='Новый заказ notuneeeed\n\n';cart.forEach((i,n)=>text+=(n+1)+'. '+i.name+'\nРазмер: '+i.size+'\nЦена: '+fmt(i.price_byn)+'\n'+(i.image?'Фото: '+i.image+'\n':'')+'\n');text+='Итого: '+fmt(total)+'\nДоставка: '+DELIVERY_FORMS[currentDelivery].label+'\n\nДанные клиента:\n';Object.entries(data).forEach(([k,v])=>{if(v)text+=k+': '+v+'\n'});const comment=document.getElementById('form-comment')?.value.trim();if(comment)text+='\nКомментарий: '+comment;window.Telegram?.WebApp?.openTelegramLink?Telegram.WebApp.openTelegramLink('https://t.me/'+MANAGER+'?text='+encodeURIComponent(text)):window.open('https://t.me/'+MANAGER+'?text='+encodeURIComponent(text),'_blank');cart=[];saveCart();renderCart();updateBadges();closeCheckout();showToast('Перенаправляем к менеджеру')}
 function renderRecent(){const sec=document.getElementById('profile-recent-section'),box=document.getElementById('profile-recent'),items=recentlyViewed.map(id=>allProducts.find(p=>p.id===id)).filter(Boolean).slice(0,6);if(!items.length){sec.style.display='none';return}sec.style.display='';box.innerHTML='';items.forEach(p=>{const d=document.createElement('div');d.className='profile-recent-item';d.onclick=()=>openDetail(p);const img=(p.images||[]).find(goodImg);d.innerHTML=img?'<img src="'+img+'" alt="">':'';box.appendChild(d)})}
+function enterCatalog(){const landing=document.getElementById('landing'),content=document.getElementById('catalog-content');if(landing)landing.style.display='none';if(content)content.classList.add('open');document.getElementById('page-catalog')?.scrollTo({top:0,behavior:'smooth'});}
 function switchTab(tab){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.querySelectorAll('.tab-item').forEach(t=>t.classList.remove('active'));document.getElementById('page-'+tab).classList.add('active');document.querySelector('[data-tab="'+tab+'"]')?.classList.add('active');if(tab==='cart')renderCart();if(tab==='favorites')renderFavorites();if(tab==='profile')renderRecent()}
 function updateBadges(){const b=document.getElementById('cart-badge');b.style.display=cart.length?'flex':'none';b.textContent=cart.length;document.getElementById('profile-cart-count').textContent=cart.length;document.getElementById('profile-fav-count').textContent=favorites.length}
 function showToast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2200)}
