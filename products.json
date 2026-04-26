@@ -17,5 +17,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_09ae4d6a27ec.jpg"
     ]
+  },
+  {
+    "id": 2,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "Gutta 'monohunt' cap",
+    "description": "10/10",
+    "price_byn": 550.0,
+    "prices": {
+      "BYN": 550.0
+    },
+    "sizes": [
+      "OS"
+    ],
+    "stock": 2,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_12a19116320e.jpg"
+    ]
   }
 ]
