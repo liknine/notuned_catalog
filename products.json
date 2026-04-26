@@ -1,38 +1,21 @@
 [
   {
     "id": 1,
-    "category_id": 9,
+    "category_id": 6,
     "brand": "gutta",
-    "name": "Gutta 'HOT COFFEE' cap",
-    "description": "10/10\nwith set",
-    "price_byn": 300.0,
+    "name": "Gutta 'MAMBA' OG HOODIE",
+    "description": "7/10\nno set\npopular",
+    "price_byn": 470.0,
     "prices": {
-      "BYN": 300.0
+      "BYN": 470.0
     },
     "sizes": [
-      "NO"
-    ],
-    "stock": 10,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_ff8f0ca598ea.jpg"
-    ]
-  },
-  {
-    "id": 2,
-    "category_id": 8,
-    "brand": "gutta",
-    "name": "Gutta 'OG' Shorts",
-    "description": "new\nwith set\nrare",
-    "price_byn": 350.0,
-    "prices": {
-      "BYN": 350.0
-    },
-    "sizes": [
+      "M",
       "L"
     ],
-    "stock": 1,
+    "stock": 5,
     "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_206eb3a6c333.jpg"
+      "https://liknine.github.io/notuned_catalog/images/product_09ae4d6a27ec.jpg"
     ]
   }
 ]
