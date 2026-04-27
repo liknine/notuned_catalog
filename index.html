@@ -86,8 +86,6 @@ button,input,select{font-family:inherit}
   width:100%;
   height:58px;
   border:0;
-  border-top:1px solid var(--text);
-  border-bottom:1px solid var(--text);
   background:transparent;
   color:var(--text);
   font-size:14px;
@@ -102,6 +100,27 @@ button,input,select{font-family:inherit}
   position:relative;
   overflow:hidden;
   transition:transform .34s var(--ease),letter-spacing .34s var(--ease),opacity .34s var(--ease);
+}
+
+.enter-arrow{
+  display:inline-block;
+  font-size:18px;
+  line-height:1;
+  transform:translateX(0);
+  transition:transform .34s var(--ease);
+}
+
+.enter-catalog-btn:hover{
+  letter-spacing:1.8px;
+}
+
+.enter-catalog-btn:hover .enter-arrow{
+  transform:translateX(6px);
+}
+
+.enter-catalog-btn:active{
+  transform:scale(.985);
+  opacity:.7;
 }
 .enter-catalog-btn:before{
   content:"";
