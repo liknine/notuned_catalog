@@ -1,39 +1,20 @@
 [
   {
     "id": 1,
-    "category_id": 6,
-    "brand": "gutta",
-    "name": "Gutta 'MAMBA' OG HOODIE",
-    "description": "7/10\nno set\npopular",
-    "price_byn": 470.0,
-    "prices": {
-      "BYN": 470.0
-    },
-    "sizes": [
-      "M",
-      "L"
-    ],
-    "stock": 5,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_09ae4d6a27ec.jpg"
-    ]
-  },
-  {
-    "id": 2,
     "category_id": 9,
     "brand": "gutta",
-    "name": "Gutta 'monohunt' cap",
-    "description": "10/10",
-    "price_byn": 550.0,
+    "name": "SCRIPT CAP PINK",
+    "description": "Тестовый товар. Замени через админку.",
+    "price_byn": 95,
     "prices": {
-      "BYN": 550.0
+      "BYN": 95
     },
     "sizes": [
-      "OS"
+      "ONE SIZE"
     ],
-    "stock": 2,
+    "stock": 7,
     "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_12a19116320e.jpg"
+      "./hero.jpg"
     ]
   }
 ]
