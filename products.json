@@ -16,5 +16,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_6b9588175d28.jpg"
     ]
+  },
+  {
+    "id": 2,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "Gutta BOTTEGA",
+    "description": "og but new! + zip \nдроп 23 года",
+    "price_byn": 500.0,
+    "prices": {
+      "BYN": 500.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_44e004807dcb.jpg"
+    ]
   }
 ]
