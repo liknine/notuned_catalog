@@ -52,5 +52,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_06b09a5060c3.jpg"
     ]
+  },
+  {
+    "id": 4,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "Gutta KIRB",
+    "description": "new!+zip\n25 yr. drop",
+    "price_byn": 215.0,
+    "prices": {
+      "BYN": 215.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 2,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_33daca288998.jpg"
+    ]
   }
 ]
