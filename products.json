@@ -1,24 +1,5 @@
 [
   {
-    "id": 1,
-    "category_id": 6,
-    "brand": "gutta",
-    "name": "gutta 'bread rush' hoodie",
-    "description": "111",
-    "price_byn": 550.0,
-    "prices": {
-      "BYN": 550.0
-    },
-    "sizes": [
-      "L",
-      "XL"
-    ],
-    "stock": 3,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_5f150a420916.jpg"
-    ]
-  },
-  {
     "id": 2,
     "category_id": 9,
     "brand": "gutta",
