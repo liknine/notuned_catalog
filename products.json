@@ -34,5 +34,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_44e004807dcb.jpg"
     ]
+  },
+  {
+    "id": 3,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "Gutta PRINCE",
+    "description": "new! + zip \nдроп 26 года",
+    "price_byn": 300.0,
+    "prices": {
+      "BYN": 300.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 4,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_06b09a5060c3.jpg"
+    ]
   }
 ]
