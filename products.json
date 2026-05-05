@@ -70,5 +70,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_33daca288998.jpg"
     ]
+  },
+  {
+    "id": 5,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "Gutta x Emo GEM",
+    "description": "new!+zip\n2023 yr. drop\nединсвенная в продаже на всей территории снг \n\nцену предлагайте в лс менеджеру \n@noliemolly",
+    "price_byn": 666.0,
+    "prices": {
+      "BYN": 666.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_4b6f1d01c2b3.jpg"
+    ]
   }
 ]
