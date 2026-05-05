@@ -16,23 +16,5 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_4f48dc0c3813.jpg"
     ]
-  },
-  {
-    "id": 4,
-    "category_id": 1,
-    "brand": "new_balance",
-    "name": "11",
-    "description": "11",
-    "price_byn": 11.0,
-    "prices": {
-      "BYN": 11.0
-    },
-    "sizes": [
-      "43"
-    ],
-    "stock": 4,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_183e47f63903.jpg"
-    ]
   }
 ]
