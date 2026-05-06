@@ -88,5 +88,24 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_4b6f1d01c2b3.jpg"
     ]
+  },
+  {
+    "id": 6,
+    "category_id": 7,
+    "brand": "gutta",
+    "name": "Gutta 125K",
+    "description": "new!+zip \n2025 yr. drop",
+    "price_byn": 390.0,
+    "prices": {
+      "BYN": 390.0
+    },
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "stock": 3,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_4af86f49daef.jpg"
+    ]
   }
 ]
