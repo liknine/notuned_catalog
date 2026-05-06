@@ -168,5 +168,28 @@
       "https://liknine.github.io/notuned_catalog/images/product_3e6d2e704317.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_ce13398de996.jpg"
     ]
+  },
+  {
+    "id": 10,
+    "category_id": 7,
+    "brand": "bape_sta",
+    "name": "Штаны Bape",
+    "description": "состояние - 8/10 (чуть потерты, не видно)",
+    "price_byn": 250.0,
+    "prices": {
+      "BYN": 250.0
+    },
+    "sizes": [
+      "S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_663199a5c222.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_000133bf6bb8.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_f57d01cd1d64.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_5e2eeac0e1ce.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_a599cd762c1b.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_426d569f95f1.jpg"
+    ]
   }
 ]
