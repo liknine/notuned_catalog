@@ -146,5 +146,27 @@
       "https://liknine.github.io/notuned_catalog/images/product_2c54ed534285.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_339fed1e10a5.jpg"
     ]
+  },
+  {
+    "id": 9,
+    "category_id": 7,
+    "brand": "true_religion",
+    "name": "slim fit (drip)",
+    "description": "замеры на фото",
+    "price_byn": 225.0,
+    "prices": {
+      "BYN": 225.0
+    },
+    "sizes": [
+      "ЗАМЕРЫ НА ФОТО"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_d385d12f0f3e.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_ad81bfcc42e9.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_f5e79a4275c8.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_3e6d2e704317.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_ce13398de996.jpg"
+    ]
   }
 ]
