@@ -191,5 +191,26 @@
       "https://liknine.github.io/notuned_catalog/images/product_a599cd762c1b.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_426d569f95f1.jpg"
     ]
+  },
+  {
+    "id": 11,
+    "category_id": 6,
+    "brand": "karl_lagerfeld",
+    "name": "SWEAT",
+    "description": "9/10 (без нижней бирки) \nподойдет на L и М",
+    "price_byn": 250.0,
+    "prices": {
+      "BYN": 250.0
+    },
+    "sizes": [
+      "L"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_ee3402e20f7c.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_939097a2f812.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_b868a3fa70f3.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_fefaf43d9323.jpg"
+    ]
   }
 ]
