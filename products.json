@@ -107,5 +107,25 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_4af86f49daef.jpg"
     ]
+  },
+  {
+    "id": 7,
+    "category_id": 6,
+    "brand": "gutta",
+    "name": "Gutta VARSITY",
+    "description": "new!+zip\n2026 yr. drop",
+    "price_byn": 500.0,
+    "prices": {
+      "BYN": 500.0
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 5,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_d59f914fb838.jpg"
+    ]
   }
 ]
