@@ -193,5 +193,28 @@
       "https://liknine.github.io/notuned_catalog/images/product_b868a3fa70f3.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_fefaf43d9323.jpg"
     ]
+  },
+  {
+    "id": 12,
+    "category_id": 6,
+    "brand": "no_brand",
+    "name": "PALACE ZIP KOI",
+    "description": "new+zip (с сертификатом) \nM size (сядет на L)",
+    "price_byn": 400.0,
+    "prices": {
+      "BYN": 400.0
+    },
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_c4fc58bdf76b.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_9cf4b019fed1.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_9155cc8abafc.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_af5d3f21bbf3.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_fd90794eec24.jpg"
+    ]
   }
 ]
