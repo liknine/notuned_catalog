@@ -216,5 +216,24 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_674083e478bc.jpg"
     ]
+  },
+  {
+    "id": 14,
+    "category_id": 6,
+    "brand": "gutta",
+    "name": "MAMBA LONG",
+    "description": "new!+zip \n\nфитит на L",
+    "price_byn": 400.0,
+    "prices": {
+      "BYN": 400.0
+    },
+    "sizes": [
+      "XL",
+      "L"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_3839f5bc6b8f.jpg"
+    ]
   }
 ]
