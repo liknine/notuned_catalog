@@ -198,5 +198,23 @@
       "https://liknine.github.io/notuned_catalog/images/product_af5d3f21bbf3.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_fd90794eec24.jpg"
     ]
+  },
+  {
+    "id": 13,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA BENZO",
+    "description": "new!+zip",
+    "price_byn": 420.0,
+    "prices": {
+      "BYN": 420.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_674083e478bc.jpg"
+    ]
   }
 ]
