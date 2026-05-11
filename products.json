@@ -1,23 +1,5 @@
 [
   {
-    "id": 1,
-    "category_id": 10,
-    "brand": "gutta",
-    "name": "Gutta FOUND",
-    "description": "• new! +zip\n• 2026 yr. drop",
-    "price_byn": 320.0,
-    "prices": {
-      "BYN": 320.0
-    },
-    "sizes": [
-      "O/S"
-    ],
-    "stock": 1,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_6b9588175d28.jpg"
-    ]
-  },
-  {
     "id": 2,
     "category_id": 9,
     "brand": "gutta",
