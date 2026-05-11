@@ -273,5 +273,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_415f99fe2e88.jpg"
     ]
+  },
+  {
+    "id": 17,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA 125 SNAPBACK",
+    "description": "new!+zip \n\n2026 yr. drop\n\nединственный снепбек от gutta в РБ",
+    "price_byn": 320.0,
+    "prices": {
+      "BYN": 320.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_6a55fa08ed7b.jpg"
+    ]
   }
 ]
