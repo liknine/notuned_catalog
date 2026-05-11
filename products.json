@@ -235,5 +235,25 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_3839f5bc6b8f.jpg"
     ]
+  },
+  {
+    "id": 15,
+    "category_id": 2,
+    "brand": "gutta",
+    "name": "Gutta WORLD JACKET",
+    "description": "new!+zip\nсядет на S размеры уточняйте",
+    "price_byn": 520.0,
+    "prices": {
+      "BYN": 520.0
+    },
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_deaf4ca53da7.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_1afa87e58d02.jpg"
+    ]
   }
 ]
