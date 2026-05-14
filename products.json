@@ -255,5 +255,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_6a55fa08ed7b.jpg"
     ]
+  },
+  {
+    "id": 18,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA MONOHUNT",
+    "description": "9/10 (без последнего пина) \n2025 yr. drop",
+    "price_byn": 400.0,
+    "prices": {
+      "BYN": 400.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_5afc591503c8.jpg"
+    ]
   }
 ]
