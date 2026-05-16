@@ -221,24 +221,6 @@
     ]
   },
   {
-    "id": 16,
-    "category_id": 9,
-    "brand": "gutta",
-    "name": "GUTTA UNRELEASED RED",
-    "description": "new!+zip \n\n2025 yr. drop \n\nкепка выданная за ожидание, редкий экземпляр, имеет большой потенциал в перепродаже",
-    "price_byn": 400.0,
-    "prices": {
-      "BYN": 400.0
-    },
-    "sizes": [
-      "O/S"
-    ],
-    "stock": 1,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_415f99fe2e88.jpg"
-    ]
-  },
-  {
     "id": 17,
     "category_id": 9,
     "brand": "gutta",
