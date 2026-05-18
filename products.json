@@ -219,5 +219,24 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_5afc591503c8.jpg"
     ]
+  },
+  {
+    "id": 19,
+    "category_id": 2,
+    "brand": "gutta",
+    "name": "GUTTA WORLD",
+    "description": "new!+zip \n2025 yr.drop",
+    "price_byn": 460.0,
+    "prices": {
+      "BYN": 460.0
+    },
+    "sizes": [
+      "M"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_ca0f2674b1aa.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_0788c542e1d2.jpg"
+    ]
   }
 ]
