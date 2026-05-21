@@ -200,5 +200,25 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_4fab9f94a2a1.jpg"
     ]
+  },
+  {
+    "id": 21,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA x EMO GEM",
+    "description": "8/10 (без 3 пинов)\n2023 yr. drop",
+    "price_byn": 480.0,
+    "prices": {
+      "BYN": 480.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_68ba2d6d1404.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_148ef07212e8.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_724d78a1e355.jpg"
+    ]
   }
 ]
