@@ -201,5 +201,24 @@
       "https://liknine.github.io/notuned_catalog/images/product_ca0f2674b1aa.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_0788c542e1d2.jpg"
     ]
+  },
+  {
+    "id": 20,
+    "category_id": 6,
+    "brand": "gutta",
+    "name": "GUTTA MAMBA",
+    "description": "new!+zip \n2025 yr. drop \nсядет на L",
+    "price_byn": 500.0,
+    "prices": {
+      "BYN": 500.0
+    },
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_4fab9f94a2a1.jpg"
+    ]
   }
 ]
