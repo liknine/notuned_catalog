@@ -219,5 +219,25 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_cd07a48096e5.jpg"
     ]
+  },
+  {
+    "id": 23,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA GHOST",
+    "description": "9/10 (без последнего пина)\n2023 yr. drop",
+    "price_byn": 666.0,
+    "prices": {
+      "BYN": 666.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_0607f441a4f1.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_a29a0648f489.jpg",
+      "https://liknine.github.io/notuned_catalog/images/product_444d706d9156.jpg"
+    ]
   }
 ]
