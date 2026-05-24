@@ -201,5 +201,23 @@
       "https://liknine.github.io/notuned_catalog/images/product_148ef07212e8.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_724d78a1e355.jpg"
     ]
+  },
+  {
+    "id": 22,
+    "category_id": 9,
+    "brand": "guess",
+    "name": "GUTTA NIGHT",
+    "description": "new!+zip\n2025 yr. drop",
+    "price_byn": 285.0,
+    "prices": {
+      "BYN": 285.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 11,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_cd07a48096e5.jpg"
+    ]
   }
 ]
