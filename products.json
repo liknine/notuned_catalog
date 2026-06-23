@@ -381,5 +381,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_4f3f3a00daa5.jpg"
     ]
+  },
+  {
+    "id": 36,
+    "category_id": 8,
+    "brand": "gutta",
+    "name": "GUTTA BRED RUSH V2",
+    "description": "• new!+zip+birki\n• 2026 yr. drop",
+    "price_byn": 335.0,
+    "prices": {
+      "BYN": 335.0
+    },
+    "sizes": [
+      "M"
+    ],
+    "stock": 2,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_38fa2cefd6ee.jpg"
+    ]
   }
 ]
