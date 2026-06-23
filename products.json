@@ -309,5 +309,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_51554d675568.jpg"
     ]
+  },
+  {
+    "id": 32,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA x BENZO FFGM",
+    "description": "9/10 (треснута застежка) +zip",
+    "price_byn": 470.0,
+    "prices": {
+      "BYN": 470.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_049a3133c725.jpg"
+    ]
   }
 ]
