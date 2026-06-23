@@ -345,5 +345,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_a82d1b6cba81.jpg"
     ]
+  },
+  {
+    "id": 34,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA MUTANT",
+    "description": "• new!+zip\n• 2026 yr. drop",
+    "price_byn": 320.0,
+    "prices": {
+      "BYN": 320.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 4,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_67be2327682b.jpg"
+    ]
   }
 ]
