@@ -327,5 +327,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_049a3133c725.jpg"
     ]
+  },
+  {
+    "id": 33,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA SIBERIA",
+    "description": "• new!+zip\n• 2025 yr. drop",
+    "price_byn": 360.0,
+    "prices": {
+      "BYN": 360.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_a82d1b6cba81.jpg"
+    ]
   }
 ]
