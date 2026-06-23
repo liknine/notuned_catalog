@@ -1,31 +1,13 @@
 [
   {
-    "id": 2,
-    "category_id": 9,
-    "brand": "gutta",
-    "name": "Gutta BOTTEGA",
-    "description": "og but new! + zip \nдроп 23 года",
-    "price_byn": 450.0,
-    "prices": {
-      "BYN": 450.0
-    },
-    "sizes": [
-      "O/S"
-    ],
-    "stock": 1,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_44e004807dcb.jpg"
-    ]
-  },
-  {
     "id": 6,
     "category_id": 7,
     "brand": "gutta",
     "name": "Gutta 125K",
     "description": "new!+zip \n2025 yr. drop",
-    "price_byn": 390.0,
+    "price_byn": 325.0,
     "prices": {
-      "BYN": 390.0
+      "BYN": 325.0
     },
     "sizes": [
       "M",
@@ -42,9 +24,9 @@
     "brand": "gutta",
     "name": "Gutta VARSITY",
     "description": "new!+zip\n2026 yr. drop",
-    "price_byn": 450.0,
+    "price_byn": 410.0,
     "prices": {
-      "BYN": 450.0
+      "BYN": 410.0
     },
     "sizes": [
       "S",
@@ -62,9 +44,9 @@
     "brand": "true_religion",
     "name": "slim fit (drip)",
     "description": "замеры на фото",
-    "price_byn": 225.0,
+    "price_byn": 210.0,
     "prices": {
-      "BYN": 225.0
+      "BYN": 210.0
     },
     "sizes": [
       "ЗАМЕРЫ НА ФОТО"
@@ -102,27 +84,6 @@
     ]
   },
   {
-    "id": 11,
-    "category_id": 6,
-    "brand": "karl_lagerfeld",
-    "name": "SWEAT",
-    "description": "9/10 (без нижней бирки) \nподойдет на L и М",
-    "price_byn": 250.0,
-    "prices": {
-      "BYN": 250.0
-    },
-    "sizes": [
-      "L"
-    ],
-    "stock": 1,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_ee3402e20f7c.jpg",
-      "https://liknine.github.io/notuned_catalog/images/product_939097a2f812.jpg",
-      "https://liknine.github.io/notuned_catalog/images/product_b868a3fa70f3.jpg",
-      "https://liknine.github.io/notuned_catalog/images/product_fefaf43d9323.jpg"
-    ]
-  },
-  {
     "id": 12,
     "category_id": 6,
     "brand": "no_brand",
@@ -146,24 +107,6 @@
     ]
   },
   {
-    "id": 18,
-    "category_id": 9,
-    "brand": "gutta",
-    "name": "GUTTA MONOHUNT",
-    "description": "9/10 (без последнего пина) \n2025 yr. drop",
-    "price_byn": 400.0,
-    "prices": {
-      "BYN": 400.0
-    },
-    "sizes": [
-      "O/S"
-    ],
-    "stock": 1,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_5afc591503c8.jpg"
-    ]
-  },
-  {
     "id": 19,
     "category_id": 2,
     "brand": "gutta",
@@ -183,34 +126,14 @@
     ]
   },
   {
-    "id": 21,
-    "category_id": 9,
-    "brand": "gutta",
-    "name": "GUTTA x EMO GEM",
-    "description": "8/10 (без 3 пинов)\n2023 yr. drop",
-    "price_byn": 480.0,
-    "prices": {
-      "BYN": 480.0
-    },
-    "sizes": [
-      "O/S"
-    ],
-    "stock": 1,
-    "images": [
-      "https://liknine.github.io/notuned_catalog/images/product_68ba2d6d1404.jpg",
-      "https://liknine.github.io/notuned_catalog/images/product_148ef07212e8.jpg",
-      "https://liknine.github.io/notuned_catalog/images/product_724d78a1e355.jpg"
-    ]
-  },
-  {
     "id": 22,
     "category_id": 9,
     "brand": "gutta",
     "name": "GUTTA NIGHT",
     "description": "new!+zip\n2025 yr. drop",
-    "price_byn": 285.0,
+    "price_byn": 260.0,
     "prices": {
-      "BYN": 285.0
+      "BYN": 260.0
     },
     "sizes": [
       "O/S"
@@ -226,9 +149,9 @@
     "brand": "gutta",
     "name": "GUTTA GHOST",
     "description": "9/10 (без последнего пина)\n2023 yr. drop",
-    "price_byn": 666.0,
+    "price_byn": 450.0,
     "prices": {
-      "BYN": 666.0
+      "BYN": 450.0
     },
     "sizes": [
       "O/S"
@@ -238,6 +161,153 @@
       "https://liknine.github.io/notuned_catalog/images/product_0607f441a4f1.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_a29a0648f489.jpg",
       "https://liknine.github.io/notuned_catalog/images/product_444d706d9156.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA x EMO GEM",
+    "description": "8/10 (без последних 3 пинов) (нестандартной формы, комфортно носится на 4/7 пинах)",
+    "price_byn": 480.0,
+    "prices": {
+      "BYN": 480.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_64.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "category_id": 6,
+    "brand": "gutta",
+    "name": "GUTTA URL ZIP",
+    "description": "8/10 +zip микродырка на спине. сядет на S",
+    "price_byn": 400.0,
+    "prices": {
+      "BYN": 400.0
+    },
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "stock": 1,
+    "images": [
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_65.jpg",
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_66.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA MAGIC",
+    "description": "new!+zip",
+    "price_byn": 320.0,
+    "prices": {
+      "BYN": 320.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 2,
+    "images": [
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_67.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "category_id": 5,
+    "brand": "gutta",
+    "name": "GUTTA CLASSIC WHITE",
+    "description": "new!+zip",
+    "price_byn": 350.0,
+    "prices": {
+      "BYN": 350.0
+    },
+    "sizes": [
+      "M"
+    ],
+    "stock": 1,
+    "images": [
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_68.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "category_id": 5,
+    "brand": "gutta",
+    "name": "PRESCRIPTION GANG LOGO BLACK",
+    "description": "new!+zip",
+    "price_byn": 320.0,
+    "prices": {
+      "BYN": 320.0
+    },
+    "sizes": [
+      "M"
+    ],
+    "stock": 1,
+    "images": [
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_69.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "category_id": 5,
+    "brand": "gutta",
+    "name": "GUTTA TRIPLE BLACK TEE",
+    "description": "new!+zip",
+    "price_byn": 280.0,
+    "prices": {
+      "BYN": 280.0
+    },
+    "sizes": [
+      "L"
+    ],
+    "stock": 1,
+    "images": [
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_70.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "category_id": 5,
+    "brand": "gutta",
+    "name": "GUTTA TRIPLE BLACK LONG",
+    "description": "new!+zip",
+    "price_byn": 350.0,
+    "prices": {
+      "BYN": 350.0
+    },
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "stock": 2,
+    "images": [
+      "https://api.telegram.org/file/bot8747258187:AAGpCuoKLC9pEPeEJ8wqDzXmBth19xBbjm0/photos/file_71.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA MONOHUNT",
+    "description": "new!+zip",
+    "price_byn": 400.0,
+    "prices": {
+      "BYN": 400.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 1,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_51554d675568.jpg"
     ]
   }
 ]
