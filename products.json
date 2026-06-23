@@ -363,5 +363,23 @@
     "images": [
       "https://liknine.github.io/notuned_catalog/images/product_67be2327682b.jpg"
     ]
+  },
+  {
+    "id": 35,
+    "category_id": 9,
+    "brand": "gutta",
+    "name": "GUTTA NOISE",
+    "description": "• new!+zip\n• 2026 yr. drop",
+    "price_byn": 350.0,
+    "prices": {
+      "BYN": 350.0
+    },
+    "sizes": [
+      "O/S"
+    ],
+    "stock": 4,
+    "images": [
+      "https://liknine.github.io/notuned_catalog/images/product_4f3f3a00daa5.jpg"
+    ]
   }
 ]
